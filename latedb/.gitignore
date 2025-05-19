@@ -1,0 +1,64 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# --- Environment variables ---
+.env
+.env.*
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env/
+
+# --- VS Code ---
+.vscode/
+
+# --- PyCharm ---
+.idea/
+
+# --- macOS ---
+.DS_Store
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs and output ---
+*.log
+*.out
+*.tmp
+
+# --- Jupyter Notebooks checkpoints ---
+.ipynb_checkpoints
+
+# --- MyPy, Pylint, coverage, pytest ---
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Builds ---
+build/
+dist/
+*.egg-info/
+
+# --- Other ---
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.orig
+
+# --- Git credentials or hooks ---
+.git-credentials
+.git/hooks/*
